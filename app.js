@@ -12,8 +12,9 @@ app.listen(port, () =>{
     console.log(`listening on port ${port}`)
 })
 
-app.get('/', (req,res) => {
-    res.send('Working')
+app.get('/',(req,res) =>{
+    queries.getAll()
+    .then(response => res.send(response))
 })
 
 
