@@ -71,7 +71,7 @@ exports.seed = function (knex, Promise) {
           last: "Chivers",
           lat: "21.278492",
           long: "-157.832754",
-          favAnimal: "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg (Not automatically expanded because 4 MB is too large. You can expand it anyway or open it in a new window.) "
+          favAnimal: "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
         },
         {
           first: "Kevin",
@@ -85,14 +85,14 @@ exports.seed = function (knex, Promise) {
           last: "Wright",
           lat: "-23.87435",
           long: "98.42153",
-          favAnimal: "https://bit.ly/2xhgkD6 (2 MB) "
+          favAnimal: "https://bit.ly/2xhgkD6"
         },
         {
           first: "Nick",
           last: "Lee",
           lat: "37.3852",
           long: "122.1141",
-          favAnimal: "https://c1.staticflickr.com/4/3072/2836269719_f1038ae2c8_b.jpg (560 kB) "
+          favAnimal: "https://c1.staticflickr.com/4/3072/2836269719_f1038ae2c8_b.jpg"
         },
         {
           first: "Jed",
